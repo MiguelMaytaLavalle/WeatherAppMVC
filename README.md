@@ -20,3 +20,5 @@ There are many more features that I wished I had time to implement, such as:
 * enter name of location instead of coordinates
 * able to store favorite locations 
 * being able to adjust preferences regarding the UI, e.g. the time interval between updates.
+
+In due time I will probably return back and finish it up
