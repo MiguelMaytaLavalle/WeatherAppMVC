@@ -111,7 +111,7 @@ public class JsonRW {
             e.printStackTrace();
         }
 
-        System.out.println("READ FROM FILE: " + jsonObject.toString());
+        //System.out.println("READ FROM FILE: " + jsonObject.toString());
         return jsonObject;
     }
 

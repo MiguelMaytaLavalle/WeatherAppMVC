@@ -39,7 +39,6 @@ import view.MainActivityViewImplementor;
  */
 public class MVCController extends AppCompatActivity {
     private static final String WEATHER_10_DAYS_URL
-            //= "https://maceo.sth.kth.se/api/category/pmp3g/version/2/geotype/point/lon/14.333/lat/60.383/";
             ="https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/";
 
     MainActivityViewImplementor mvcView;
@@ -72,9 +71,7 @@ public class MVCController extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     public void onSubmitButtonClicked(float latitude, float longitude){
-        //String url = WEATHER_10_DAYS_URL + "lon/"+longitude+"/lat/"+latitude+"/data.json";
-
-        String url = "https://api.dabas.com/DABASService/V2/article/gtin/07310865085733/JSON?apikey=6480301a-6977-43f8-a2d0-fa1a384cb1d3";
+        String url = WEATHER_10_DAYS_URL + "lon/"+longitude+"/lat/"+latitude+"/data.json";
         mvcModel.setCoordinates(latitude,longitude);
         getRequestForecast(url);
     }
