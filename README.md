@@ -1,7 +1,7 @@
 # General
 Develop a mobile application that uses this data to present weather forecast data for a 10 day period. In the simplest form of the application the user enters longitude and latitude and the application, in a list, displays time, temperature and an image representing the cloud coverage. Display an error message if the coordinates are out of range or some similar error occurs.
 
-<img src="https://github.com/MiguelMaytaLavalle/WeatherAppMVC/blob/main/app/src/main/java/preview/Portrait.jpg" width="250" height="400">
+<img src="https://github.com/MiguelMaytaLavalle/WeatherAppMVC/blob/main/app/src/main/java/preview/Portrait.jpg" width="200" height="300">
 
 # Requierements
 * The mobile application is built following the MVC design pattern.
