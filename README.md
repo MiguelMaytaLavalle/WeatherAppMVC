@@ -13,3 +13,10 @@ Develop a mobile application that uses this data to present weather forecast dat
 * Handles exceptions to prevent the application from crashing in case:
   - the network fails
   - user input is errorneous or missing
+
+# Thoughts
+There are many more features that I wished I had time to implement, such as:
+* automaticlly find your position when first opening the app
+* enter name of location instead of coordinates
+* able to store favorite locations 
+* being able to adjust preferences regarding the UI, e.g. the time interval between updates.
